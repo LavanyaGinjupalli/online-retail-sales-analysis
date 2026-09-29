@@ -52,35 +52,87 @@ Key objectives include:
 ## 🔷 Medallion Data Architecture
 
 The project organizes data into three analytical layers.
+<h2 align="center">🎨 DATA JOURNEY</h2>
 
-```text
-                 ┌─────────────────────┐
-                 │    🥉 BRONZE        │
-                 │     Raw Data        │
-                 │  Original Dataset   │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │    🥈 SILVER        │
-                 │   Cleaned Data      │
-                 │ Validated & Structured│
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │     🥇 GOLD         │
-                 │ Business Analytics  │
-                 │ Aggregated Tables    │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │ 📊 DASHBOARD        │
-                 │ Business Insights   │
-                 │ Interactive Reports │
-                 └─────────────────────┘
-```
+<table align="center">
+<tr>
+<td align="center" width="220" bgcolor="#E8D5FF">
+
+### 🥉 BRONZE
+
+<b>RAW DATA</b>
+
+Original Dataset
+
+📥 Ingest  
+📄 Preserve  
+🔒 Read Only
+
+</td>
+
+<td align="center" width="60">
+
+➡️
+
+</td>
+
+<td align="center" width="220" bgcolor="#D9F2FF">
+
+### 🥈 SILVER
+
+<b>CLEAN DATA</b>
+
+Validated & Structured
+
+🧹 Clean  
+✅ Validate  
+🔄 Transform
+
+</td>
+
+<td align="center" width="60">
+
+➡️
+
+</td>
+
+<td align="center" width="220" bgcolor="#FFF1CC">
+
+### 🥇 GOLD
+
+<b>BUSINESS DATA</b>
+
+Aggregated Tables
+
+📊 Analyze  
+📈 Aggregate  
+💡 Insights
+
+</td>
+
+<td align="center" width="60">
+
+➡️
+
+</td>
+
+<td align="center" width="220" bgcolor="#D9F7E8">
+
+### 📊 DASHBOARD
+
+<b>BUSINESS INSIGHTS</b>
+
+Interactive Reports
+
+🎯 KPIs  
+📈 Trends  
+🌍 Analysis
+
+</td>
+</tr>
+</table>
+
+
 
 ### 🥉 Bronze — Raw Data
 
