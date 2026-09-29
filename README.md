@@ -52,7 +52,7 @@ Key objectives include:
 ## 🔷 Medallion Data Architecture
 
 The project organizes data into three analytical layers.
-<h2 align="center">🎨 DATA JOURNEY</h2>
+<h2 align="center"> DATA JOURNEY</h2>
 
 <table align="center">
 <tr>
